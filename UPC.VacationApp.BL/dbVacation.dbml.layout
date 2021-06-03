@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbVacation">
+  <DataContextMoniker Name="/dbVacationDataContext" />
+  <nestedChildShapes>
+    <classShape Id="44080d3d-5d2f-4ca6-bb9c-d086feedd250" absoluteBounds="0.75, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/dbVacationDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee9f7ee4-fb51-490f-bce2-6ac589342fa4" absoluteBounds="0.765, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a2b3dd8-19f9-4cfc-a103-ee732c012003" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/dbVacationDataContext/Vacacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3523c769-9e5a-471a-954b-8c62871ff40b" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.27005126953125); (3.5 : 2.27005126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbVacationDataContext/Usuario/Usuario_Vacacion" />
+      <nodes>
+        <classShapeMoniker Id="44080d3d-5d2f-4ca6-bb9c-d086feedd250" />
+        <classShapeMoniker Id="2a2b3dd8-19f9-4cfc-a103-ee732c012003" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
