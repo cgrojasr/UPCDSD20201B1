@@ -7,6 +7,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPC.VacationApp.BL", "UPC.V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPC.VacationApp.UT", "UPC.VacationApp.UT\UPC.VacationApp.UT.csproj", "{AB190958-812B-4BCC-9F17-48B2617B8582}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UPC.VacationApp.SOAP", "UPC.VacationApp.SOAP\", "{321949D1-D7A1-4861-BE33-6EF042CD3C49}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{0a63e157-d03c-41dd-b84f-53cc977d09a1}|UPC.VacationApp.BL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58385"
+		Debug.AspNetCompiler.PhysicalPath = "UPC.VacationApp.SOAP\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58385\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58385"
+		Release.AspNetCompiler.PhysicalPath = "UPC.VacationApp.SOAP\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58385\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58385"
+		SlnRelativePath = "UPC.VacationApp.SOAP\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +44,10 @@ Global
 		{AB190958-812B-4BCC-9F17-48B2617B8582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB190958-812B-4BCC-9F17-48B2617B8582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB190958-812B-4BCC-9F17-48B2617B8582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321949D1-D7A1-4861-BE33-6EF042CD3C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321949D1-D7A1-4861-BE33-6EF042CD3C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321949D1-D7A1-4861-BE33-6EF042CD3C49}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{321949D1-D7A1-4861-BE33-6EF042CD3C49}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

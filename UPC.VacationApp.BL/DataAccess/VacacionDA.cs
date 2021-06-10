@@ -87,6 +87,7 @@ namespace UPC.VacationApp.BL.DataAccess
         {
             try
             {
+                objVacacion.FechaRegistro = DateTime.Now;
                 dc.Vacacions.InsertOnSubmit(objVacacion);
                 dc.SubmitChanges();
 
